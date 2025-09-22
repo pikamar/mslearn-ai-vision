@@ -2,8 +2,8 @@ import os
 import json
 
 # Add references
-from dotenv import load_dotenvfrom azure.identity 
-import DefaultAzureCredential, get_bearer_token_provider
+from dotenv import load_dotenv
+from azure.identity import DefaultAzureCredential, get_bearer_token_provider
 from openai import AzureOpenAI
 import requests
 
